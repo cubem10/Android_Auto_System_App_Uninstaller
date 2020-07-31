@@ -13,7 +13,7 @@ public class Main {
     static String command, result, adbpath;
     public static void main(String[] args) {
         Scanner adb = new Scanner(System.in);
-        System.out.print("adb 경로를 지정해 주세요 (예시: /Users/cubem10/platform-tools/adb). platform-tools는 https://bit.ly/latest-platform-tools 에서 다운받으실 수 있습니다: ");
+        System.out.print("adb 경로를 지정해 주세요 (예시: /Users/cubem10/platform-tools). platform-tools는 https://bit.ly/latest-platform-tools 에서 다운받으실 수 있습니다: ");
         adbpath = adb.nextLine();
         Scanner jsoninput = new Scanner(System.in);
         System.out.print("CCSWE Export 형식의 파일의 경로를 지정해 주세요: ");
